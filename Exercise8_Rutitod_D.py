@@ -40,7 +40,3 @@ if usernameinput == "a1" and passwordinput == "1":
             print("Total :", amount2 * bananaprice, "THB")
 else:
     print("Error")
-
-
-
-
