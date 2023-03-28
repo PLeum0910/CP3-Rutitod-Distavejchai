@@ -11,7 +11,7 @@ if usernameinput == "a1" and passwordinput == "1":
     userselect = int(input(">>"))
     if userselect == 1:
         print("How many?")
-        amount1 = int(input(">>"))
+        amountapple = int(input(">>"))
         print("Another One? (Y/N)")
         choose = str(input(">>"))
         if choose == "Y":
@@ -20,15 +20,15 @@ if usernameinput == "a1" and passwordinput == "1":
             userselect1 = int(input(">>"))
             if userselect1 == 2:
                 print("How many?")
-                amount2 = int(input(">>"))
-                print("Total :",amount1*appleprice+amount2*bananaprice,"THB")
+                amountbanana = int(input(">>"))
+                print("Total :",amountapple*appleprice+amountbanana*bananaprice,"THB")
                 print("Thanks for Shopping")
         elif choose == "N":
-            print("Total :", amount1 * appleprice, "THB")
+            print("Total :", amountapple * appleprice, "THB")
             print("Thanks for Shopping")
     elif userselect == 2:
         print("How many?")
-        amount2 = int(input(">>"))
+        amountbanana = int(input(">>"))
         print("Another One? (Y/N)")
         choose = str(input(">>"))
         if choose == "Y":
@@ -37,11 +37,11 @@ if usernameinput == "a1" and passwordinput == "1":
             userselect2 = int(input(">>"))
             if userselect2 == 1:
                 print("How many?")
-                amount1 = int(input(">>"))
-                print("Total :",amount1*appleprice+amount2*bananaprice,"THB")
+                amountapple = int(input(">>"))
+                print("Total :",amountapple*appleprice+amountbanana*bananaprice,"THB")
                 print("Thanks for Shopping")
         elif choose == "N":
-            print("Total :", amount2 * bananaprice, "THB")
+            print("Total :", amountbanana * bananaprice, "THB")
             print("Thanks for Shopping")
 else:
     print("Error")
