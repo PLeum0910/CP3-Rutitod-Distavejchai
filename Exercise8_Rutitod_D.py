@@ -7,6 +7,7 @@ if usernameinput == "a1" and passwordinput == "1":
     orangeprice = 15
     print("1.Apple",appleprice,"THB")
     print("2.Banana",bananaprice,"THB")
+    print("What do you want?")
     userselect = int(input(">>"))
     if userselect == 1:
         print("How many?")
@@ -21,8 +22,10 @@ if usernameinput == "a1" and passwordinput == "1":
                 print("How many?")
                 amount2 = int(input(">>"))
                 print("Total :",amount1*appleprice+amount2*bananaprice,"THB")
+                print("Thanks for Shopping")
         elif choose == "N":
             print("Total :", amount1 * appleprice, "THB")
+            print("Thanks for Shopping")
     elif userselect == 2:
         print("How many?")
         amount2 = int(input(">>"))
@@ -36,7 +39,9 @@ if usernameinput == "a1" and passwordinput == "1":
                 print("How many?")
                 amount1 = int(input(">>"))
                 print("Total :",amount1*appleprice+amount2*bananaprice,"THB")
+                print("Thanks for Shopping")
         elif choose == "N":
             print("Total :", amount2 * bananaprice, "THB")
+            print("Thanks for Shopping")
 else:
     print("Error")
