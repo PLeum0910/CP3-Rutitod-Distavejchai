@@ -4,7 +4,6 @@ if usernameinput == "a1" and passwordinput == "1":
     print("----Welcome----")
     appleprice = 10
     bananaprice = 8
-    orangeprice = 15
     print("1.Apple",appleprice,"THB")
     print("2.Banana",bananaprice,"THB")
     print("What do you want?")
